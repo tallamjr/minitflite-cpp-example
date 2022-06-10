@@ -7,7 +7,7 @@ These instructions are written using an Apple Mac Pro M1.
 `bazelisk` is recommended for building the project, which can be done with `brew`:
 
 ```bash
-brew install bazelisk
+$ brew install bazelisk
 ```
 
 ## Compile and Build TFLite
@@ -135,3 +135,11 @@ $ du -sh */** | grep -v "tensorflow|assets" | sort -rh
 4.0K    minitflite-example/CMakeLists.txt
 
 ```
+
+### References
+
+This repo and working demo is really down to some amazing online resources:
+
+* [TensorFlow Lite C++ ( Mac OS Installation)](https://www.youtube.com/watch?v=mmEuHu5eSx0)
+* [tflite-cv-example](https://github.com/NobuoTsukamoto/tflite-cv-example/tree/master/centernet/cpp)
+* [SO: What's the difference between .so, .la and .a library files?](https://stackoverflow.com/a/12237595/4521950
