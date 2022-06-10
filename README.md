@@ -120,7 +120,7 @@ $ make
 ## Inspect Storage Sizes
 
 I am ignoring the submodule of tensorflow since what's really used for deployment will be in
-`minitflite-example` folder.
+`minitflite-example` folder. A guide to reducing the binary size can be found here: [Reduce TensorFlow Lite binary size](https://www.tensorflow.org/lite/guide/reduce_binary_size)
 
 ```bash
 $ du -sh */** | grep -v "tensorflow|assets" | sort -rh
