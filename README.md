@@ -116,3 +116,22 @@ $ make
 ```
 
 ![DEMO](./assets/screenshot.png)
+
+## Inspect Storage Sizes
+
+I am ignoring the submodule of tensorflow since what's really used for deployment will be in
+`minitflite-example` folder.
+
+```bash
+$ du -sh */** | grep -v "tensorflow|assets" | sort -rh
+ 52M    minitflite-example/include
+ 18M    minitflite-example/models
+3.6M    minitflite-example/libs
+676K    minitflite-example/bin
+ 12K    minitflite-example/main.cpp
+8.0K    minitflite-example/centernet_detector.cpp
+4.0K    minitflite-example/inputs
+4.0K    minitflite-example/centernet_detector.h
+4.0K    minitflite-example/CMakeLists.txt
+
+```
