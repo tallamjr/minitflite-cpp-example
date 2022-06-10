@@ -142,4 +142,4 @@ This repo and working demo is really down to some amazing online resources:
 
 * [TensorFlow Lite C++ ( Mac OS Installation)](https://www.youtube.com/watch?v=mmEuHu5eSx0)
 * [tflite-cv-example](https://github.com/NobuoTsukamoto/tflite-cv-example/tree/master/centernet/cpp)
-* [SO: What's the difference between .so, .la and .a library files?](https://stackoverflow.com/a/12237595/4521950
+* [SO: What's the difference between .so, .la and .a library files?](https://stackoverflow.com/a/12237595/4521950)
