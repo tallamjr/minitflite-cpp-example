@@ -1,0 +1,3 @@
+/Users/tallamjr/github/tallamjr/origin/minitflite-cpp-example/minitflite-example/bin/CMakeFiles/centernet_detection.dir
+/Users/tallamjr/github/tallamjr/origin/minitflite-cpp-example/minitflite-example/bin/CMakeFiles/edit_cache.dir
+/Users/tallamjr/github/tallamjr/origin/minitflite-cpp-example/minitflite-example/bin/CMakeFiles/rebuild_cache.dir
